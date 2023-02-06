@@ -1,0 +1,350 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("fonts/Montserrat-Regular.ttf");
+
+}
+@font-face {
+    font-family: MontserratBold;
+    src: url("fonts/Montserrat-Bold.ttf");
+
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+#main {
+    background-image: url("images/bg2.png");
+    background-size: 1920px 100%;
+    background-position: center;
+}
+
+#main-container {
+    max-width: 1170px;
+    margin: auto;
+}
+#main-header {
+    display: flex;
+    align-items: center;
+    padding-top: 44px;
+}
+#main-header-logo span {
+    font-size: 18px;
+    font-family: MontserratBold, sans-serif;
+    color: rgb(56, 104, 210);
+    margin-left: 10px;
+}
+#main-header-menu {
+    margin-left: 264px;
+
+}
+#main-header-menu a.menu-item {
+    font-size: 16px;
+    font-family: MontserratBold, sans-serif;
+    color: rgb(56, 104, 210);
+    margin-right: 30px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+#main-header-menu a.menu-item:hover {
+    border-bottom: 2px solid rgb(56, 104, 210);
+}
+#main-header-phone {
+    margin-left: 100px;
+
+}
+.phone {
+    text-decoration: none;
+}
+#main-header-phone span {
+    font-size: 20px;
+    font-family: MontserratBold, sans-serif;
+    color: rgb(56, 104, 210);
+    margin-left: 10px;
+}
+#main-header-phone span,
+#main-header-phone img {
+    vertical-align: middle;
+}
+#main-content {
+    margin-top: 182px;
+    max-width: 730px;
+}
+#main-title {
+    font-size: 40px;
+    font-family: MontserratBold, sans-serif;
+    color:  rgb(56, 104, 210);
+    line-height: 45px;
+}
+#main-items {
+    margin-top: 36px;
+}
+#main-items .main-item {
+    margin-top: 17px;
+
+}
+#main-items .main-item span,
+#main-items .main-item img {
+    vertical-align: middle;
+}
+#main-items .main-item span {
+    margin-left: 11px;
+    font-size: 18px;
+    color: rgb(34, 56, 104);
+}
+.button {
+    background-color: rgb(56, 104, 210);
+    border: 1px solid rgb(56, 104, 210);
+    box-shadow: 3.536px 3.536px 20.01px 2.99px rgb(40, 67, 127, 0.36);
+    width: 324px;
+    height: 58px;
+    border: none;
+    font-size: 18px;
+    font-family: MontserratBold, sans-serif;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+#main-cta {
+    margin-top: 54px;
+    margin-bottom: 250px;
+}
+#main-cta a {
+    font-size: 18px;
+    font-family: MontserratBold, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.title {
+    font-size: 35px;
+    font-family: MontserratBold, sans-serif;
+    color: rgb(56, 104, 210);
+}
+/* About section*/
+#about {
+    margin-top: 160px;
+    margin-bottom: 126px;
+}
+#about-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*flex container*/
+}
+#about-container .about-item {
+    margin-top: 40px;
+    max-width: 560px;
+}
+#about-title {
+    margin-bottom: 60px;
+}
+#about-container .about-item .about-text {
+    font-size: 16px;
+    color: rgb(40, 67, 127);
+    line-height: 24px;
+    margin-top: 45px;
+}
+#about-container .about-item .about-item-image {
+    box-shadow: 9px 9px 0px #ebf0fa;
+}
+
+#about-quote {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+#about-quote-text {
+    margin-left: 28px;
+    font-size: 16px;
+    color: rgb(40, 67, 127);
+    line-height: 24px;
+}
+
+#services {
+    margin-bottom: 108px;
+}
+
+#services-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#services-title {
+    margin-bottom: 60px;
+}
+
+#services-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#services-items .services-item {
+    width: 292px;
+    height: 292px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#services-items .services-item.bg {
+    background: #FBFCFF;
+}
+
+#services-items .services-item .services-item-text {
+    font-size: 18px;
+    font-family: MontserratBold, sans-serif;
+    color: rgb(56, 104, 210);
+    text-transform: uppercase;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 30px;
+}
+/*Contact Form block*/
+#reserve {
+    background-image: url("images/form-bg.png");
+    background-size: 1920px 470px;
+    background-position: center;
+    padding: 132px 0;
+}
+
+#reserve-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#reserve-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+#reserve-description {
+    font-size: 16px;
+    color: rgb(40, 67, 127);
+    line-height: 24px;
+    text-align: center;
+    max-width: 530px;
+    margin: 0 auto;
+}
+#reserve-form {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reserve-form input {
+    border-width: 1px;
+    border-color: rgb(56, 104, 210);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    width: 268px;
+    height: 48px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+#reserve-form button {
+    height: 48px;
+}
+
+/* SoMe Block Projects*/
+#some {
+    margin: 122px 0 118px 0;
+}
+#some-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+#some-title {
+    margin-bottom: 60px;
+}
+#some-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*--=== Footer ===--*/
+#footer {
+    background: #28437f;
+}
+#footer-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+#footer-logo span {
+    font-size: 18px;
+    font-family: MontserratBold, sans-serif;
+    color: white;
+    margin-left: 10px;
+}
+
+#footer-email {
+    margin-left: 142px;
+    display: flex;
+}
+#footer-email-text-description a {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#footer-adress {
+    margin-left: 142px;
+    display: flex;
+}
+#footer-email-text, #footer-adress-text {
+    margin-left: 10px;
+}
+#footer-email-text-title, #footer-adress-text-title {
+    font-size: 16px;
+    font-family: MontserratBold, sans-serif;
+    color: white;
+}
+#footer-email-text-description, #footer-adress-text-description {
+    font-size: 16px;
+    color: white;
+    margin-top: 5px;
+}
+
+#footer-phone {
+    margin-left: 142px;
+
+}
+.phone {
+    text-decoration: none;
+}
+#footer-phone span {
+    font-size: 20px;
+    font-family: MontserratBold, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+#footer-phone span,
+#footer-phone img {
+    vertical-align: middle;
+}
+
+.datetime {
+    font-size: 16px;
+   
+    color: rgb(40, 67, 127);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.time {
+    font-size: 2em;
+    color: rgb(56, 104, 210);
+}
+
+.date {
+    margin-top: 12px;
+    font-size: 1em;
+}
