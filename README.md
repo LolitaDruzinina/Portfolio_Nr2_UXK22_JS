@@ -1,5 +1,5 @@
 Inlämningsuppgift 2 - Slutuppgift
-# Portfolio_Nr2_UXK22_JS :octocat:
+# Portfolio_UXK22_JS :octocat:
 ### Upgift Portfolio HTML/CSS/JavaScript
 #### Chas Academy_UXK22
 
